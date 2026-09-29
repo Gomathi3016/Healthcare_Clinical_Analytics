@@ -1,0 +1,29 @@
+Table_Name,Column_Name,Description
+patients,Patient_ID,Unique patient identifier
+patients,Age,Patient age in years
+patients,Age_Group,Age band
+patients,Gender,Patient gender
+patients,Risk_Category,Clinical risk category
+patients,Primary_Condition,Primary condition group
+patients,Region,Geographic region
+encounters,Encounter_ID,Unique encounter identifier
+encounters,Patient_ID,Patient identifier
+encounters,Encounter_Date,Encounter date
+encounters,Encounter_Type,Encounter setting
+encounters,Length_of_Stay_Days,Length of stay
+encounters,Outcome,Encounter outcome
+labs,Lab_ID,Unique lab record identifier
+labs,Patient_ID,Patient identifier
+labs,Lab_Date,Laboratory test date
+labs,Test_Name,Laboratory test
+labs,Result_Value,Numeric result
+diagnoses,Diagnosis_ID,Unique diagnosis identifier
+diagnoses,Patient_ID,Patient identifier
+diagnoses,Diagnosis_Date,Diagnosis date
+diagnoses,Diagnosis_Code,Diagnosis code
+diagnoses,Diagnosis_Name,Diagnosis description
+medications,Medication_ID,Unique medication identifier
+medications,Patient_ID,Patient identifier
+medications,Medication_Date,Medication event date
+medications,Medication_Name,Medication name
+medications,Medication_Status,Medication status
